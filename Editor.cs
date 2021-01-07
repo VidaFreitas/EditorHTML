@@ -33,6 +33,7 @@ namespace EditorHTML
 
             Console.WriteLine("----------");
             Console.WriteLine(" Deseja salvar o arquivo? ");
+            Viewr.Show(file.ToString());
         }
 
     }
